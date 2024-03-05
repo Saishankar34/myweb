@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: fixed;
+    
+}
+html{
+    scroll-behavior:smooth;
+    
+}
+nav{
+    background-color: #ff9900;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+}
+nav h1{
+    color:#333333 ;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.sai:hover{
+    text-shadow: 0px 0px 10px #CCCCCC,
+                 0px 0px 20px #CCCCCC,
+                 0px 0px 30px #CCCCCC; 
+                 transition: 0.5s;
+}
+
+nav ul{
+    float: right;
+    display: inline-flex;
+   list-style: none;
+}
+nav li{
+    margin-top: -15px;
+     margin-right: 15px;
+    font-size: 20px;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #333333;
+}
+li a:hover{
+    color: orangered;
+    transition: .5s;
+}
+body{
+    background-color:#333333;
+}
+#home img{
+   box-shadow:10px 9px 40px orange;
+    width: 450px;
+    height: 450px;
+    border-radius: 25% 10%;
+    margin-top: 150px;
+    margin-left: 50px;
+    position: relative;
+}
+#home img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#home h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 26%;
+    margin-top: 20%;
+    float: right;
+    text-align: center;
+    color:#CCCCCC ;
+    text-shadow:  0px 0px 10px  #ff9900;
+}
+#home pre{
+    font-size: 40px;
+    color: #ff9900;
+    font-weight: bold;
+   
+}
+#home p{
+    color: #CCCCCC;
+font-size: larger;
+width: 35%;
+margin-left:52%;
+margin-top: -140px;
+}
+#home button{
+  margin-left: 56%;
+  margin-top: 30px;
+  border: solid;
+  border-radius:15px;
+  border-width: 3px;
+  width: 250px;
+  height: 50px;
+  background-color: #ff9900;
+  color:#333333;
+  font-size: 30px;
+ 
+}
+#home button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#about img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    box-shadow: 10px 20px 50px black ,
+                -10px 20px 70px orange  ;
+    margin-bottom: -60px;
+    margin-left: 25px;
+}
+#about h1{
+    text-align: center;
+    color:#CCCCCC ;
+    font-size: 40px;
+    margin-right: 26%;
+    margin-top: -200px;
+    text-shadow: 0px 0px 10px #ff9900,
+                 0px 0px 20px #ff9900;
+}
+#about h3{
+    text-align: center;
+    color: #ff9900;
+    margin-right: 26%;
+    margin-top: -120px;
+    font-style:oblique;
+    font-size: 30px;
+}
+#about pre{
+    text-align: center;
+    color: #CCCCCC;
+    margin-left: 20%;
+    margin-top:0 ;
+    font-size: 25px;
+    width: 40px; 
+}
+.sh{
+    display: none;
+}
+#skills h1{
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #ff9900,
+                0px 0px 20px #ff9900;
+}
+#skills h3{
+    font-size: 30px;
+    color: #ff9900;
+}
+.frontend{
+    font-weight: bold;
+    font-size: 50px;
+    display: inline;
+}
+.frontlist li{
+    list-style: none;
+}
+.html{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  13rem;
+    color: #CCCCCC;
+     
+}
+.html:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.css{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  24rem;
+    margin-top: -37px;
+    color: #CCCCCC;
+}
+.css:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 60px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.boot{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  33rem;
+    margin-top: -37px;
+    color: #CCCCCC;
+}
+.boot:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 215px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.js{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  50rem;
+    margin-top: -37px;
+    color: #CCCCCC;
+}
+.js:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 211px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.react{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  68rem;
+    margin-top: -37px;
+    color: #CCCCCC;
+}
+.react:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 170px;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.angular{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  13rem;
+    margin-top: 40px;
+    color: #CCCCCC;
+}
+.angular:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 211px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.backend{
+    font-weight: bold;
+    font-size: 50px;
+    display: inline;  
+}
+.backlist li{
+    list-style: none;
+}
+.java{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  13rem;
+    margin-top: -5px;
+    color: #CCCCCC;
+}
+.java:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 80px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.spring{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  23rem;
+    margin-top: -36px;
+    color: #CCCCCC;
+}
+.spring:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 130px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.sb{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  35rem;
+    margin-top: -36px;
+    color: #CCCCCC;
+}
+.sb:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 235px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.hiber{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  54rem;
+    margin-top: -36px;
+    color: #CCCCCC;
+}
+.hiber:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 210px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.database{
+    font-weight: bold;
+    font-size: 50px;
+    display: inline; 
+}
+.oracle{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ff9900;
+    margin-left: 13rem;
+}
+.data li{
+    list-style: none;
+}
+.sql{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  26rem;
+    margin-top: 0;
+    color: #CCCCCC;
+}
+.sql:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 63px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.plsql{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:  35rem;
+    margin-top: -37px;
+    color: #CCCCCC;
+}
+.plsql:hover
+{
+    box-shadow:10px 9px 40px orange;
+    width: 103px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#services h1{
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #ff9900,
+                 0px 0px 20px #ff9900;
+}
+ #services h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#CCCCCC;
+    border: solid;
+    width: 150px;
+    height: 100px;
+    border: 150px;
+    border-bottom: 200px;
+    box-shadow: 5px  5px orange;
+    margin-left: 150px;
+}
+.web1{
+    margin-top: -12%;
+}
+#services h3:hover{
+    box-shadow:10px 10px 30px  orange;
+}
+.web{
+    text-align: center;
+    color: #CCCCCC;
+    margin-left: 30%;
+    margin-top: -28%;
+    font-size: 25px;
+    width: 35%;
+}
+.android{
+    text-align: center;
+    color: #CCCCCC;
+    margin-left: 30%;
+    margin-top:-12%;
+    font-size: 25px;
+    width: 35%;
+}
+.game{
+    text-align: center;
+    color: #CCCCCC;
+    margin-left: 30%;
+    margin-top:-8% ;
+    font-size: 25px;
+    width: 35%;
+}
+.androidimg{
+    margin-left: 72%;
+    margin-top: -20%;
+    border: solid;
+    width: 50vh;
+    height: 46vh;
+    border: 150px;
+    border-bottom: 200px;
+    box-shadow:  10px  10px orange,
+                -12px -12px black;
+}
+#contactus h1{
+    text-align: center;
+    font-size: 40px;
+    color:#CCCCCC;
+    text-shadow: 0px 0px 10px #ff9900,
+                 0px 0px 20px #ff9900;
+}
+#contactus h2{
+    font-size: 35px; 
+    color:#CCCCCC;
+   width: 85%;
+   text-align: center;
+   margin-left: 90px;
+}
+.app img{
+    border-radius: 10px;
+}
+.app img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#face{
+    width: 50px;
+   margin-left: 22%;
+margin-top: -15%;
+   margin-bottom: 10%;
+}
+#mail{
+    width: 50px;
+    margin-left: 200px;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+#insta{
+    width: 50px; 
+    margin-left: 200px; 
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+#what{
+    width: 50px;
+    margin-left: 200px;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+
+@media screen and (max-width:480px) {
+    
+
+    #home img{
+       margin-left: 14rem;
+       margin-top: 175px;
+       margin-bottom: -35px;
+        width: 130px;
+        height: 140px;
+        border-bottom-right-radius: 35px ;
+        border-top-left-radius: 35px;
+        box-shadow:8px 7px 35px orange;
+    }
+    #home h1{
+        font-size: 30px;
+        margin-top: -100px;
+        margin-right: 180px;
+        font-weight: bold;
+    }
+    #home pre{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #home p{
+        font-size: 25px;
+        margin-top: 5rem;
+        width: 300px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    #home button{
+        margin-left: 46px;
+        font-weight: bold;
+    }
+    #about h1{
+        margin-bottom:120px ;
+        margin-left: 70px;
+        font-weight: bold;
+        
+    }
+    #about img{
+        border-radius: 15%;
+        margin-left: 105px;
+        margin-top: -100px;
+        width: 150px;
+        height: 150px;
+        box-shadow: 0px 0px 0px orange  ,
+        0px 0px 20px orange  ;
+    }
+    #about h3{
+        display: none;
+    }
+     #about pre{
+      display: none;
+    }
+    #about pre.sh{
+        margin-top: -20px;
+        display:inline-block;
+        margin-left: -210px;
+        font-size: 25px;
+    }
+    #skills h1{
+        margin-top: -50px;
+    }
+}
